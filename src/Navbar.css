@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #252626;
+    overflow: hidden;
+    padding: 1rem 1rem;
+    text-align: center;
+    width: 50%;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    z-index: 1000;
+    border-radius: 40px;
+}
+
+.navbar a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
