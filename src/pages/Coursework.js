@@ -9,13 +9,12 @@ const Coursework = () => {
     <div
       className="container center-align"
       style={{
-        height: '100vh',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
       }}
     >
-      <h1 className="App-header">Coursework</h1>
+      <h1 className="child-left">Coursework</h1>
     </div>
     </div>
   );
