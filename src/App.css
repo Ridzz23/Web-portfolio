@@ -84,20 +84,30 @@ p {
 }
 
 /* Card container styling */
+/* Card container styling */
+.cards-container {
+  display: flex; /* Enable Flexbox */
+  flex-wrap: wrap; /* Allows cards to wrap onto new lines if needed */
+  gap: 20px; /* Space between cards */
+  justify-content: center; /* Center cards in the container */
+  padding: 2rem; /* Add padding around the container */
+}
+
+/* Card styling */
 .card {
   background-color: #1c1c1c; /* Softer dark background for better contrast */
   border: 2px solid #333333; /* Subtle border color */
   border-radius: 16px; /* Slightly larger corner radius for a modern look */
   color: white; /* Text color */
-  width: 600px; /* A more compact card width */
+  flex: 0 1 calc(50% - 20px); /* Take 50% of the container's width minus the gap */
   padding: 1.5rem; /* More spacious padding */
   display: flex;
   flex-direction: column;
   align-items: center; /* Centers content */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
   box-sizing: border-box;
-  margin: 1rem auto; /* Center-align cards when stacking */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add hover effect */
+  margin: 0 auto; /* Ensure proper centering for smaller layouts */
 }
 
 .card:hover {
@@ -121,6 +131,7 @@ p {
   border-radius: 12px; /* Larger rounded corners for the image */
   margin-bottom: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Add shadow to the image */
+  object-fit: cover; /* Ensures image fits container */
 }
 
 /* Content styling */
@@ -145,13 +156,17 @@ p {
   color: #00bfff; /* Slightly lighter blue on hover */
 }
 
-/* Cards container styling */
-.cards-container {
-  display: flex; /* Enable Flexbox */
-  flex-wrap: wrap; /* Allows cards to wrap onto new lines if needed */
-  gap: 20px; /* Space between cards */
-  justify-content: center; /* Center cards in the container */
-  padding: 2rem; /* Add padding around the container */
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    flex: 0 1 calc(50% - 15px); /* Two cards per row for medium-sized screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 0 1 100%; /* Stack cards vertically for small screens */
+  }
 }
 
 
