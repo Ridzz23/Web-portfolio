@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import '../App.css';
 import Card from '../components/card';
-import githubImg from '../images/github.png';
 import lingoheroImg from '../images/lingohero.png';
 import ieeeImg from '../images/ieee.png';
 import labstreamImg from '../images/labstream.png';
