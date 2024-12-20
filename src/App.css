@@ -14,6 +14,11 @@ body,html {
   }
 }
 
+p {
+  color: rgb(192, 192, 192);
+  font-size: 25px;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -32,7 +37,7 @@ body,html {
 
 .child-left {
   display: inline-block;
-  padding: 1rem 3rem 1rem 1rem;
+  padding: 1rem;
   vertical-align: middle;
   color: white;
   font-size: 80px;
@@ -84,7 +89,7 @@ body,html {
   border: 2px solid #333333; /* Subtle border color */
   border-radius: 16px; /* Slightly larger corner radius for a modern look */
   color: white; /* Text color */
-  width: 360px; /* A more compact card width */
+  width: 600px; /* A more compact card width */
   padding: 1.5rem; /* More spacious padding */
   display: flex;
   flex-direction: column;
