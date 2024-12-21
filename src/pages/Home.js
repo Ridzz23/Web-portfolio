@@ -24,7 +24,7 @@ const Home = () => {
           Hello World!<br></br>
           I'm Ridhi.
           </h3>
-          <p>Computer Engineering Major at UC San Diego with a 4.0 GPA.</p>
+          <p>Curious and Driven Computer Engineering Major at UC San Diego.</p>
           </div>
           <div class="child-right">
             <div class="button-container">
