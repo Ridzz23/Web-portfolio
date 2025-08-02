@@ -95,9 +95,8 @@ p {
 
 /* Card styling */
 .card {
-  background-color: #1c1c1c; /* Softer dark background for better contrast */
-  border: 2px solid #333333; /* Subtle border color */
-  border-radius: 16px; /* Slightly larger corner radius for a modern look */
+  background-color: #f5f7fa; /* Softer dark background for better contrast */
+  border: 1px solid #d0d7e2; /* Subtle border color */
   color: white; /* Text color */
   flex: 0 1 calc(50% - 20px); /* Take 50% of the container's width minus the gap */
   padding: 1.5rem; /* More spacious padding */
@@ -121,14 +120,13 @@ p {
   font-weight: bold;
   margin-bottom: 1rem;
   text-align: center;
-  color: #e6e6e6; /* Slightly softer white */
+  color: #1a1f36; /* Slightly softer white */
 }
 
 /* Image styling */
 .card-image {
   width: 100%; /* Makes image stretch to fit the container */
   height: auto; /* Keeps image aspect ratio */
-  border-radius: 12px; /* Larger rounded corners for the image */
   margin-bottom: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Add shadow to the image */
   object-fit: cover; /* Ensures image fits container */
@@ -140,7 +138,7 @@ p {
   line-height: 1.6; /* Improve text spacing */
   margin-bottom: 1.5rem;
   text-align: center;
-  color: #dcdcdc; /* Softer text color for readability */
+  color:  #1a1f36; /* Softer text color for readability */
 }
 
 /* Link styling */
@@ -178,3 +176,12 @@ p {
     transform: rotate(360deg);
   }
 }
+
+.button1:hover, .social-buttons button:hover {
+  transform: scale(1.1);
+}
+
+.tech-stack span:hover {
+  background-color: #d3e0f0;
+}
+
