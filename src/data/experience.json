@@ -1,0 +1,34 @@
+[
+  {
+    "header": "LabStream",
+    "content1": "Collaborating with a team of 8 developers and a professor to build a remote lab platform using React, Flask, and Firebase. Enables students to control real lab hardware remotely via a live-streaming interface.",
+    "content2": "Created the UI, secure login, Firebase-integrated booking system, and professor portal for lab slot management. Optimized performance for high-volume use.",
+    "image": "labstream.png",
+    "linkName": "Code on GitHub",
+    "link": "https://github.com/UCSD-LabStream/Frontend"
+  },
+  {
+    "header": "LingoHero",
+    "content1": "Worked with ~20 devs/designers to build a gamified mobile app for language learning using mini-games and levels.",
+    "content2": "Built 4 full UI screens using React, improved interactivity, and participated in weekly team meetings to align on goals and fixes.",
+    "image": "lingohero.png",
+    "linkName": "LingoHero LinkedIn",
+    "link": "https://www.linkedin.com/company/lingo-hero/posts/?feedView=all"
+  },
+  {
+    "header": "Technical Chair at IEEE UCSD",
+    "content1": "Planned and led technical workshops, including an ESP32, soldering, and Rust workshop. Promoted hands-on learning.",
+    "content2": "Taught Rust concepts and built a Lorenz attractor project. Helped host and mentor at a high school soldering workshop.",
+    "image": "ieee.png",
+    "linkName": "IEEE UCSD Website",
+    "link": "https://ieeeucsd.org/"
+  },
+  {
+    "header": "WIC Beginner Programming Competition",
+    "content1": "WIC's BPC welcomes 100+ students each quarter with 10 beginner-friendly coding challenges in Python, Java, or C.",
+    "content2": "Wrote questions, solutions, and test cases. Managed logistics and helped execute three successful competitions.",
+    "image": "wic.png",
+    "linkName": "WIC UCSD",
+    "link": "https://wic.ucsd.edu/"
+  }
+]
