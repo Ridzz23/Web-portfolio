@@ -5,8 +5,18 @@ import linkedInImg from '../images/linkedin.png';
 import githubImg from '../images/github.png';
 import profileImg from '../images/profile.png';
 import Card from '../components/card';
+
+// Import featured projects JSON
+import featuredData from '../data/featured.json';
+
+// Import images for mapping
 import ezterminalImg from '../images/ezterminal.png';
 import labstreamImg from '../images/labstream.png';
+
+const imageMap = {
+  "ezterminal.png": ezterminalImg,
+  "labstream.png": labstreamImg
+};
 
 const Home = () => {
   const openLink = (link) => window.open(link, "_blank");
@@ -15,12 +25,14 @@ const Home = () => {
     <div className="home-container" style={{ backgroundColor: '#f8f9fb', minHeight: '100vh', fontFamily: 'Arial, sans-serif' }}>
       <Navbar />
 
+      {/* Profile Section */}
       <section className="profile-section" style={{ textAlign: 'center', padding: '60px 20px 40px' }}>
         <img src={profileImg} alt="Profile" style={{ width: '140px', height: '140px', borderRadius: '50%', boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }} />
         <h2 style={{ margin: '25px 0 10px', fontSize: '28px', color: '#222' }}>Ridhi Srikanth</h2>
         <p style={{ color: '#555', fontSize: '16px' }}>Computer Engineering Student at UC San Diego</p>
         <p style={{ fontSize: '15px', color: '#777', marginBottom: '20px' }}>📍 San Diego, CA</p>
 
+        {/* Social Buttons */}
         <div className="social-buttons" style={{ display: 'flex', justifyContent: 'center', gap: '15px' }}>
           <button onClick={() => openLink("https://www.linkedin.com/in/ridhi-srikanth-8495a6222/")} style={socialButtonStyle}>
             <img src={linkedInImg} alt="LinkedIn" style={{ width: '65px' }} />
@@ -30,10 +42,12 @@ const Home = () => {
           </button>
         </div>
 
+        {/* About */}
         <p style={{ marginTop: '30px', maxWidth: '600px', margin: '30px auto 0', fontSize: '16px', color: '#444', lineHeight: 1.6 }}>
           I’m passionate about building tools that make life easier — from remote labs to next-gen terminal experiences.
         </p>
 
+        {/* Tech Stack */}
         <div className="tech-stack" style={{
           marginTop: '35px',
           display: 'flex',
@@ -47,6 +61,7 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Featured Projects */}
       <section className="projects-section" style={{ backgroundColor: '#fff', padding: '60px 20px' }}>
         <h1 style={{ textAlign: 'center', marginBottom: '50px', fontSize: '36px', color: '#222' }}>Featured</h1>
         <div className="cards-container" style={{
@@ -57,23 +72,17 @@ const Home = () => {
           maxWidth: '1200px',
           margin: '0 auto'
         }}>
-          <Card
-            header="LabStream"
-            content1="Collaborated with 8 developers and a professor to build a remote lab platform using React, Flask, Firebase, and ESP32 microcontrollers. Built a scalable UI, lab booking system, and professor slot management portal."
-            content2="Integrated secure login, real-time updates, and optimized performance for thousands of students conducting real experiments remotely."
-            image={labstreamImg}
-            linkName="Code on GitHub"
-            link="https://github.com/UCSD-LabStream/Frontend"
-          />
-
-          <Card
-            header="EzTerminal"
-            content1="A Rust + Tauri powered desktop terminal that improves CLI UX with a documentation finder, theming, and beginner-friendly design."
-            content2="Developed from scratch — full-stack architecture using Rust, HTML/CSS, and JS. Designed for both performance and simplicity."
-            image={ezterminalImg}
-            linkName="EzTerminal Website"
-            link="https://ezterminal.vercel.app/"
-          />
+          {featuredData.map((proj, index) => (
+            <Card
+              key={index}
+              header={proj.header}
+              content1={proj.content1}
+              content2={proj.content2}
+              image={imageMap[proj.image]}
+              linkName={proj.linkName}
+              link={proj.link}
+            />
+          ))}
         </div>
       </section>
     </div>

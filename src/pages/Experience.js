@@ -2,10 +2,21 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import '../App.css';
 import Card from '../components/card';
+import experienceData from '../data/experience.json';
+
+// Import images
 import lingoheroImg from '../images/lingohero.png';
 import ieeeImg from '../images/ieee.png';
 import labstreamImg from '../images/labstream.png';
 import wicImg from '../images/wic.png';
+
+// Map image file names from JSON to imported images
+const imageMap = {
+  "lingohero.png": lingoheroImg,
+  "ieee.png": ieeeImg,
+  "labstream.png": labstreamImg,
+  "wic.png": wicImg
+};
 
 const Experience = () => {
   return (
@@ -26,38 +37,17 @@ const Experience = () => {
           maxWidth: '1200px',
           margin: '0 auto'
         }}>
-          <Card
-            header="LabStream"
-            content1="Collaborating with a team of 8 developers and a professor to build a remote lab platform using React, Flask, and Firebase. Enables students to control real lab hardware remotely via a live-streaming interface."
-            content2="Created the UI, secure login, Firebase-integrated booking system, and professor portal for lab slot management. Optimized performance for high-volume use."
-            image={labstreamImg}
-            linkName="Code on GitHub"
-            link="https://github.com/UCSD-LabStream/Frontend"
-          />
-          <Card
-            header="LingoHero"
-            content1="Worked with ~20 devs/designers to build a gamified mobile app for language learning using mini-games and levels."
-            content2="Built 4 full UI screens using React, improved interactivity, and participated in weekly team meetings to align on goals and fixes."
-            image={lingoheroImg}
-            linkName="LingoHero LinkedIn"
-            link="https://www.linkedin.com/company/lingo-hero/posts/?feedView=all"
-          />
-          <Card
-            header="Technical Chair at IEEE UCSD"
-            content1="Planned and led technical workshops, including an ESP32, soldering, and Rust workshop. Promoted hands-on learning."
-            content2="Taught Rust concepts and built a Lorenz attractor project. Helped host and mentor at a high school soldering workshop."
-            image={ieeeImg}
-            linkName="IEEE UCSD Website"
-            link="https://ieeeucsd.org/"
-          />
-          <Card
-            header="WIC Beginner Programming Competition"
-            content1="WIC's BPC welcomes 100+ students each quarter with 10 beginner-friendly coding challenges in Python, Java, or C."
-            content2="Wrote questions, solutions, and test cases. Managed logistics and helped execute three successful competitions."
-            image={wicImg}
-            linkName="WIC UCSD"
-            link="https://wic.ucsd.edu/"
-          />
+          {experienceData.map((exp, index) => (
+            <Card
+              key={index}
+              header={exp.header}
+              content1={exp.content1}
+              content2={exp.content2}
+              image={imageMap[exp.image]}
+              linkName={exp.linkName}
+              link={exp.link}
+            />
+          ))}
         </div>
       </section>
     </div>
