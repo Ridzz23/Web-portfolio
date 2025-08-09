@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    { "id": "Data Structures", "type": "course", "color": "#4e79a7" },
+    { "id": "Algorithms", "type": "course", "color": "#f28e2b" },
+    { "id": "Operating Systems", "type": "course", "color": "#76b7b2" },
+    { "id": "Python", "type": "skill", "color": "#59a14f" },
+    { "id": "C++", "type": "skill", "color": "#edc949" },
+    { "id": "Java", "type": "skill", "color": "#edc949" },
+    { "id": "Problem Solving", "type": "skill", "color": "#af7aa1" },
+    { "id": "Concurrency", "type": "skill" },
+    { "id": "Virtual Memory", "type": "skill" },
+    { "id": "Graph Algorithms", "type": "skill" },
+    { "id": "Dynamic Programming", "type": "skill" },
+    { "id": "Greedy Algorithms", "type": "skill" }
+  ],
+  "links": [
+    { "source": "Data Structures", "target": "C++" },
+    { "source": "Data Structures", "target": "Problem Solving" },
+    { "source": "Algorithms", "target": "Problem Solving" },
+    { "source": "Operating Systems", "target": "Java" },
+    { "source": "Data Structures", "target": "C++" },
+    { "source": "Data Structures", "target": "Java" },
+    { "source": "Operating Systems", "target": "Concurrency" },
+    { "source": "Operating Systems", "target": "Virtual Memory" },
+    { "source": "Algorithms", "target": "Graph Algorithms" },
+    { "source": "Algorithms", "target": "Dynamic Programming" },
+    { "source": "Algorithms", "target": "Greedy Algorithms" }
+  ]
+}
