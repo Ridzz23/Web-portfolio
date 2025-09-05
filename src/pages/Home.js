@@ -10,12 +10,12 @@ import Card from '../components/card';
 import featuredData from '../data/featured.json';
 
 // Import images for mapping
-import ezterminalImg from '../images/ezterminal.png';
-import labstreamImg from '../images/labstream.png';
+import neuralnetImg from '../images/neuralnet.png';
+import pythonShellImg from '../images/python_shell.png';
 
 const imageMap = {
-  "ezterminal.png": ezterminalImg,
-  "labstream.png": labstreamImg
+  "neuralnet.png": neuralnetImg,
+  "python_shell.png": pythonShellImg
 };
 
 const Home = () => {
@@ -44,7 +44,8 @@ const Home = () => {
 
         {/* About */}
         <p style={{ marginTop: '30px', maxWidth: '600px', margin: '30px auto 0', fontSize: '16px', color: '#444', lineHeight: 1.6 }}>
-          I’m passionate about building tools that make life easier — from remote labs to next-gen terminal experiences.
+          Curiosity drives me to explore, and determination ensures I follow through. I am a Computer Engineering student at UCSD, engaged
+          in software development and CS research. I learn quickly and turn ideas into results, persisting through challenges to achieve success.
         </p>
 
         {/* Tech Stack */}

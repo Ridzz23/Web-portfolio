@@ -9,13 +9,18 @@ import lingoheroImg from '../images/lingohero.png';
 import ieeeImg from '../images/ieee.png';
 import labstreamImg from '../images/labstream.png';
 import wicImg from '../images/wic.png';
+import neuralnetImg from '../images/neuralnet.png';
+import pythonShellImg from '../images/python_shell.png';
+//import electrotritonImg from '../images/electrotriton.png';
 
 // Map image file names from JSON to imported images
 const imageMap = {
   "lingohero.png": lingoheroImg,
   "ieee.png": ieeeImg,
   "labstream.png": labstreamImg,
-  "wic.png": wicImg
+  "wic.png": wicImg,
+  "neuralnet.png": neuralnetImg,
+  "python_shell.png": pythonShellImg
 };
 
 const Experience = () => {

@@ -1,18 +1,14 @@
 [
   {
-    "header": "LabStream",
-    "content1": "Collaborated with 8 developers and a professor to build a remote lab platform using React, Flask, Firebase, and ESP32 microcontrollers. Built a scalable UI, lab booking system, and professor slot management portal.",
-    "content2": "Integrated secure login, real-time updates, and optimized performance for thousands of students conducting real experiments remotely.",
-    "image": "labstream.png",
-    "linkName": "Code on GitHub",
-    "link": "https://github.com/UCSD-LabStream/Frontend"
+    "header": "CS Research",
+    "content1": "Collaborated with a research team on a corpus study of scientific programs where I conducted a reproducibility study.",
+    "content2": "Currently Leading a research project in developing a python internal DSL to support shell scripting capabilities for scientific workflows.",
+    "image": "python_shell.png"
   },
   {
-    "header": "EzTerminal",
-    "content1": "A Rust + Tauri powered desktop terminal that improves CLI UX with a documentation finder, theming, and beginner-friendly design.",
-    "content2": "Developed from scratch — full-stack architecture using Rust, HTML/CSS, and JS. Designed for both performance and simplicity.",
-    "image": "ezterminal.png",
-    "linkName": "EzTerminal Website",
-    "link": "https://ezterminal.vercel.app/"
+    "header": "Deep Learning for Food Recognition",
+    "content1": "Pre-processed image data using OpenCV for consistency and quality.",
+    "content2": "Deployed Convolutional Neural Network (CNN) based machine learning models for computer vision tasks using PyTorch. Model optimized for real-time food image recognition and nutrient value computation.",
+    "image": "neuralnet.png"
   }
 ]

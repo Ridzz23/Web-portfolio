@@ -1,5 +1,26 @@
 [
   {
+    "header": "Deep Learning for Food Recognition",
+    "content1": "Pre-processed image data using OpenCV for consistency and quality.",
+    "content2": "Deployed Convolutional Neural Network (CNN) based machine learning models for computer vision tasks using PyTorch. Model optimized for real-time food image recognition and nutrient value computation.",
+    "image": "neuralnet.png"
+  },
+
+  {
+    "header": "CS Research",
+    "content1": "Collaborated with a research team on a corpus study of scientific programs where I conducted a reproducibility study.",
+    "content2": "Currently Leading a research project in developing a python internal DSL to support shell scripting capabilities for scientific workflows.",
+    "image": "python_shell.png"
+  },
+
+  {
+    "header": "ElectroTriton",
+    "content1": "Developing features in ElectroTriton, a Django + MySQL homework management web app used for Engineering courses.",
+    "content2": "Implemented administrator tools for professor account management and accomplished a ~71% reduction in course setup (35→10 min) by automating assignment renaming and date shifting in the course cloning functionality.",
+    "image": "electrotriton.png"
+  },
+  
+  {
     "header": "LabStream",
     "content1": "Collaborating with a team of 8 developers and a professor to build a remote lab platform using React, Flask, and Firebase. Enables students to control real lab hardware remotely via a live-streaming interface.",
     "content2": "Created the UI, secure login, Firebase-integrated booking system, and professor portal for lab slot management. Optimized performance for high-volume use.",
@@ -18,7 +39,7 @@
   {
     "header": "Technical Chair at IEEE UCSD",
     "content1": "Planned and led technical workshops, including an ESP32, soldering, and Rust workshop. Promoted hands-on learning.",
-    "content2": "Taught Rust concepts and built a Lorenz attractor project. Helped host and mentor at a high school soldering workshop.",
+    "content2": "Led four technical workshops, including a live-coded React web dev session and a recommendation systems workshop.",
     "image": "ieee.png",
     "linkName": "IEEE UCSD Website",
     "link": "https://ieeeucsd.org/"
