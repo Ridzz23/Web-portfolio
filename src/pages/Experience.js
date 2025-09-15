@@ -11,6 +11,7 @@ import labstreamImg from '../images/labstream.png';
 import wicImg from '../images/wic.png';
 import neuralnetImg from '../images/neuralnet.png';
 import pythonShellImg from '../images/python_shell.png';
+import electrotritonImg from '../images/electrotriton.png';
 //import electrotritonImg from '../images/electrotriton.png';
 
 // Map image file names from JSON to imported images
@@ -20,7 +21,8 @@ const imageMap = {
   "labstream.png": labstreamImg,
   "wic.png": wicImg,
   "neuralnet.png": neuralnetImg,
-  "python_shell.png": pythonShellImg
+  "python_shell.png": pythonShellImg,
+  "electrotriton.png": electrotritonImg
 };
 
 const Experience = () => {
