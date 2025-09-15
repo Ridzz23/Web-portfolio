@@ -27,7 +27,7 @@ const Home = () => {
 
       {/* Profile Section */}
       <section className="profile-section" style={{ textAlign: 'center', padding: '60px 20px 40px' }}>
-        <img src={profileImg} alt="Profile" style={{ width: '140px', height: '140px', borderRadius: '50%', boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }} />
+        <img src={profileImg} alt="Profile" style={{ width: '150px', height: '150px', borderRadius: '50%', boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }} />
         <h2 style={{ margin: '25px 0 10px', fontSize: '28px', color: '#222' }}>Ridhi Srikanth</h2>
         <p style={{ color: '#555', fontSize: '16px' }}>Computer Engineering Student at UC San Diego</p>
         <p style={{ fontSize: '15px', color: '#777', marginBottom: '20px' }}>📍 San Diego, CA</p>
