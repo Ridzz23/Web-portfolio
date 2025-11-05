@@ -1,35 +1,35 @@
 [
   {
-    "header": "Deep Learning for Food Recognition",
-    "content1": "Pre-processed image data using OpenCV for consistency and quality.",
-    "content2": "Deployed Convolutional Neural Network (CNN) based machine learning models for computer vision tasks using PyTorch. Model optimized for real-time food image recognition and nutrient value computation.",
+    "header": "Software intern - Stealth (Health-tech startup)",
+    "content1": "Deep learning for food recognition:",
+    "content2": "Pre-processed image data using OpenCV for consistency and quality.Deployed Convolutional Neural Network (CNN) based machine learning models for computer vision tasks using PyTorch. Model optimized for real-time food image recognition and nutrient value computation.",
     "image": "neuralnet.png"
   },
 
   {
-    "header": "CS Research",
-    "content1": "Collaborated with a research team on a corpus study of scientific programs where I conducted a reproducibility study.",
-    "content2": "Currently Leading a research project in developing a python internal DSL to support shell scripting capabilities for scientific workflows.",
+    "header": "CS Researcher",
+    "content1": "Collaborated with a research team on a corpus study of 500+ scientific programs; Analyzed publicly available code bases for runtime errors, debugged issues and simulated the code to study software reproducibility. Co-authored a research paper and submitted to FSE 2026",
+    "content2": "Leading an independent research project; performed thematic and static analysis of shell scripts from scientific workflows. Leveraging findings to design a Python-based Domain Specific Language (DSL) for safer and accessible shell scripting. Extended python grammar by editing the Cpython Compiler; working with C and bytecode to implement functionalities.",
     "image": "python_shell.png"
   },
 
   {
-    "header": "ElectroTriton",
+    "header": "Full Stack dev - ElectroTriton",
     "content1": "Developing features in ElectroTriton, a Django + MySQL homework management web app used for Engineering courses.",
-    "content2": "Implemented administrator tools for professor account management and accomplished a ~71% reduction in course setup (35→10 min) by automating assignment renaming and date shifting in the course cloning functionality.",
+    "content2": "Implemented administrator tools for professor account management and accomplished a ~71% reduction in course setup (35→10 min) by automating assignment renaming and date shifting in the course cloning functionality. Automated student list updates with CSV validation and email checks, adding new students and removing dropped ones, reducing manual roster management time by ~78% (45 → 10 min).",
     "image": "electrotriton.png"
   },
   
   {
-    "header": "LabStream",
-    "content1": "Collaborating with a team of 8 developers and a professor to build a remote lab platform using React, Flask, and Firebase. Enables students to control real lab hardware remotely via a live-streaming interface.",
-    "content2": "Created the UI, secure login, Firebase-integrated booking system, and professor portal for lab slot management. Optimized performance for high-volume use.",
+    "header": "Full Stack dev - LabStream",
+    "content1": "Developed, with team of 8, a scalable web application enabling real-time remote access to electrical engineering lab for the academic community.",
+    "content2": "Built a real-time slot booking system that reduced scheduling time for lab sessions by ~65%, streamlining the process from multi-email coordination to a 5-minute online booking. Implemented features including lab session creation, active user session management, and role-based access control. Evaluated and integrated Firebase for data storage, CRUD operations, authentication; developed reusable React components.",
     "image": "labstream.png",
     "linkName": "Code on GitHub",
     "link": "https://github.com/UCSD-LabStream/Frontend"
   },
   {
-    "header": "LingoHero",
+    "header": "Frontend developer - LingoHero",
     "content1": "Worked with ~20 devs/designers to build a gamified mobile app for language learning using mini-games and levels.",
     "content2": "Built 4 full UI screens using React, improved interactivity, and participated in weekly team meetings to align on goals and fixes.",
     "image": "lingohero.png",
@@ -39,13 +39,13 @@
   {
     "header": "Technical Chair at IEEE UCSD",
     "content1": "Planned and led technical workshops, including an ESP32, soldering, and Rust workshop. Promoted hands-on learning.",
-    "content2": "Led four technical workshops, including a live-coded React web dev session and a recommendation systems workshop.",
+    "content2": "Led 5 technical workshops, including a live-coded React web dev session and a recommendation systems workshop, fostering hands-on learning for peers.",
     "image": "ieee.png",
     "linkName": "IEEE UCSD Website",
     "link": "https://ieeeucsd.org/"
   },
   {
-    "header": "WIC Beginner Programming Competition",
+    "header": "WIC Programming Competition organizer",
     "content1": "WIC's BPC welcomes 100+ students each quarter with 10 beginner-friendly coding challenges in Python, Java, or C.",
     "content2": "Wrote questions, solutions, and test cases. Managed logistics and helped execute three successful competitions.",
     "image": "wic.png",

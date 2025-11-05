@@ -126,7 +126,7 @@ const Coursework = () => {
           Relevant Coursework
         </h1>
         <p style={{ fontSize: "16px", color: "#666", marginBottom: "20px" }}>
-          Courses and skills I’ve built along the way.
+          Courses and skills I have built along the way.
         </p>
       </section>
 

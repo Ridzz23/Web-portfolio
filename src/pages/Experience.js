@@ -32,7 +32,7 @@ const Experience = () => {
 
       <section className="experience-header" style={{ textAlign: 'center', padding: '60px 20px 40px' }}>
         <h1 style={{ fontSize: '36px', color: '#222', marginBottom: '10px' }}>Experience</h1>
-        <p style={{ fontSize: '16px', color: '#666' }}>What I've worked on and contributed to.</p>
+        <p style={{ fontSize: '16px', color: '#666' }}>What I have worked on and contributed to.</p>
       </section>
 
       <section className="cards-section" style={{ backgroundColor: '#fff', padding: '60px 20px' }}>

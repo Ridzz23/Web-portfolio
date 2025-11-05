@@ -29,7 +29,7 @@ const Projects = () => {
 
       <section style={{ textAlign: 'center', padding: '60px 20px 20px' }}>
         <h1 style={{ fontSize: '36px', color: '#1a1f36' }}>Projects</h1>
-        <p style={{ fontSize: '16px', color: '#666' }}>What I've built.</p>
+        <p style={{ fontSize: '16px', color: '#666' }}>What I have built.</p>
       </section>
 
       <hr style={{ maxWidth: '1200px', margin: '0 auto 40px', borderColor: '#ddd' }} />
